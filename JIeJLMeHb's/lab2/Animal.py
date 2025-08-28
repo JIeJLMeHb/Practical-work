@@ -34,3 +34,4 @@ class Dog(Animal):
         
     def __del__(self):
         print(f"Удаление объекта Dog: {self.name}")
+        

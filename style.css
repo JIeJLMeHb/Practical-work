@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.image-header {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: rgba(32, 178, 170, 0.5);
+    
+}
+header {
+    display: flex;
+    background-color: #008B8B;
+    border-radius: 10px;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-grid {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+
+}
+
+.product-card {
+  flex: 0 auto;      
+  width: 20%;
+  scroll-snap-align: start;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.price {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+
+
+button:hover {
+  background: #27ae60;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+.Petya{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+}
+.Artem{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.Gosha{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.Egor{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.Dima{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.kypil{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.papaya{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+.ananas{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    margin-top: 10px;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.mango{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    margin-top: 10px;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.banan{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    margin-top: 10px;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.marakya{
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #E0FFFF;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    margin-top: 10px;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+a {
+  text-decoration: none;   
+  color: black;           
+  transition: color 0.3s; 
+}
+
+a:hover {
+  color: orange;          
+}
+.p{
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+}
